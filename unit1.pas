@@ -5,16 +5,16 @@ unit Unit1;
 interface
 
 uses
-  Classes, SysUtils, Forms, Controls, Graphics, Dialogs, Buttons,
-  ExtCtrls, BGRAImageList, rxctrls, rxtoolbar;
+  Classes, SysUtils, Forms, Controls, Graphics, Dialogs, Buttons, ExtCtrls,
+  BGRAImageList, rxctrls, rxtoolbar;
 
 type
 
   { TForm1 }
 
   TForm1 = class(TForm)
-    Bevel1: TBevel;
     BGRAImageList1: TBGRAImageList;
+    Panel1: TPanel;
     RxSpeedButton1: TRxSpeedButton;
     RxSpeedButton2: TRxSpeedButton;
     RxSpeedButton3: TRxSpeedButton;

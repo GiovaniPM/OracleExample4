@@ -26,6 +26,18 @@
     </RunParams>
     <RequiredPackages>
       <Item>
+        <PackageName Value="pl_Solutions"/>
+      </Item>
+      <Item>
+        <PackageName Value="pl_JujiboUtils"/>
+      </Item>
+      <Item>
+        <PackageName Value="pl_FZcontrols"/>
+      </Item>
+      <Item>
+        <PackageName Value="pl_ASIOVST"/>
+      </Item>
+      <Item>
         <PackageName Value="pl_ECControls"/>
       </Item>
       <Item>
