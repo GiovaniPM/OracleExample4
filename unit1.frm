@@ -8,7 +8,6 @@ object Form1: TForm1
   ClientWidth = 800
   Color = clMenu
   DoubleBuffered = True
-  OnCreate = FormCreate
   ParentDoubleBuffered = False
   LCLVersion = '7.2'
   Visible = True
@@ -34,18 +33,16 @@ object Form1: TForm1
       Images = BGRAImageList1
       ImageIndex = 7
       ImageWidth = 32
-      OnClick = RxSpeedButton8Click
       ShowHint = True
       ParentShowHint = False
     end
     object RxSpeedButton1: TRxSpeedButton
       Left = 1
       Height = 62
-      Hint = 'Inicio'
+      Hint = 'Primeiro'
       Top = 1
-      Width = 36
+      Width = 40
       Align = alLeft
-      AutoSize = True
       Color = clDefault
       Flat = True
       Images = BGRAImageList1
@@ -55,13 +52,12 @@ object Form1: TForm1
       ParentShowHint = False
     end
     object RxSpeedButton2: TRxSpeedButton
-      Left = 37
+      Left = 41
       Height = 62
       Hint = 'Anterior'
       Top = 1
-      Width = 29
+      Width = 40
       Align = alLeft
-      AutoSize = True
       Color = clDefault
       Flat = True
       Images = BGRAImageList1
@@ -71,13 +67,12 @@ object Form1: TForm1
       ParentShowHint = False
     end
     object RxSpeedButton3: TRxSpeedButton
-      Left = 66
+      Left = 81
       Height = 62
       Hint = 'Próximo'
       Top = 1
-      Width = 29
+      Width = 40
       Align = alLeft
-      AutoSize = True
       Color = clDefault
       Flat = True
       Images = BGRAImageList1
@@ -87,13 +82,12 @@ object Form1: TForm1
       ParentShowHint = False
     end
     object RxSpeedButton4: TRxSpeedButton
-      Left = 95
+      Left = 121
       Height = 62
       Hint = 'Último'
       Top = 1
-      Width = 36
+      Width = 40
       Align = alLeft
-      AutoSize = True
       Color = clDefault
       Flat = True
       Images = BGRAImageList1
@@ -103,13 +97,12 @@ object Form1: TForm1
       ParentShowHint = False
     end
     object RxSpeedButton5: TRxSpeedButton
-      Left = 131
+      Left = 161
       Height = 62
       Hint = 'Procurar'
       Top = 1
-      Width = 36
+      Width = 40
       Align = alLeft
-      AutoSize = True
       Color = clDefault
       Flat = True
       Images = BGRAImageList1
@@ -119,13 +112,12 @@ object Form1: TForm1
       ParentShowHint = False
     end
     object RxSpeedButton6: TRxSpeedButton
-      Left = 167
+      Left = 201
       Height = 62
       Hint = 'Confirmar'
       Top = 1
-      Width = 29
+      Width = 40
       Align = alLeft
-      AutoSize = True
       Color = clDefault
       Flat = True
       Images = BGRAImageList1
@@ -135,11 +127,11 @@ object Form1: TForm1
       ParentShowHint = False
     end
     object RxSpeedButton7: TRxSpeedButton
-      Left = 196
+      Left = 241
       Height = 62
       Hint = 'Cancelar'
       Top = 1
-      Width = 25
+      Width = 40
       Align = alLeft
       Color = clDefault
       Flat = True

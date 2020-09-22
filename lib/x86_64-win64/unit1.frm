@@ -8,7 +8,6 @@ object Form1: TForm1
   ClientWidth = 800
   Color = clMenu
   DoubleBuffered = True
-  OnCreate = FormCreate
   ParentDoubleBuffered = False
   LCLVersion = '7.2'
   Visible = True
@@ -34,7 +33,6 @@ object Form1: TForm1
       Images = BGRAImageList1
       ImageIndex = 7
       ImageWidth = 32
-      OnClick = RxSpeedButton8Click
       ShowHint = True
       ParentShowHint = False
     end
