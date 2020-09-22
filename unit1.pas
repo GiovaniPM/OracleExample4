@@ -6,14 +6,22 @@ interface
 
 uses
   Classes, SysUtils, Forms, Controls, Graphics, Dialogs, Buttons, ExtCtrls,
-  BGRAImageList, rxctrls, rxtoolbar;
+  ActnList, StdActns, DBActns, DBGrids, BGRAImageList, rxctrls,
+  rxtoolbar;
 
 type
 
   { TForm1 }
 
   TForm1 = class(TForm)
+    ActionList1: TActionList;
     BGRAImageList1: TBGRAImageList;
+    DataSetFirst1: TDataSetFirst;
+    DataSetLast1: TDataSetLast;
+    DataSetNext1: TDataSetNext;
+    DataSetPrior1: TDataSetPrior;
+    DBGrid1: TDBGrid;
+    FileExit1: TFileExit;
     Panel1: TPanel;
     RxSpeedButton1: TRxSpeedButton;
     RxSpeedButton2: TRxSpeedButton;

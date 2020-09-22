@@ -26,6 +26,9 @@
     </RunParams>
     <RequiredPackages>
       <Item>
+        <PackageName Value="pl_AGGPasVS"/>
+      </Item>
+      <Item>
         <PackageName Value="pl_Solutions"/>
       </Item>
       <Item>
